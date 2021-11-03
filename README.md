@@ -1,0 +1,2 @@
+# subdomainchecker
+subdomain checking script
