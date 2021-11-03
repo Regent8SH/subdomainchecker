@@ -25,7 +25,7 @@ def checkSubdomains(inputfile):
 			subdomain = "https://{}".format(subdomain.strip())
 
 			try:
-				response = requests.head(subdomain, timeout=1)
+				response = requests.head(subdomain, timeout=.5)
 			except Exception as e:
 				pass
 			else:
